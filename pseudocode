@@ -1,0 +1,18 @@
+#PSEUDOCODE BAGUS MART
+
+WRITE "barang"
+WRITE "totalpembayaran"
+
+PROCEDURE AddTwobarang (barang1, barang2)
+    STORE "totalpembayaran" with barang1 plus barang2 
+    PRINT "totalpembayaran"
+
+IF "totalpembayaran" more than 100000
+    PRINT "Mendapatkan Diskon 10% / 0.1"
+ELSE
+    PRINT "Tidak Mendapatkan Diskon"
+
+END PROCEDURE
+PRINT HASIL TOTAL PEMBAYARAN
+CALL AddTwobarang(50000, 60000)
+
